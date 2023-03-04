@@ -1,26 +1,26 @@
 {
-    "id": "1F0273E4",
+    "id": "2CE113C8",
     "path": "~/R/Sams_BlogDown/config.yaml",
     "project_path": "config.yaml",
     "type": "yaml",
-    "hash": "2507553442",
+    "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1677890377459.0,
+    "created": 1677890864534.0,
     "source_on_save": false,
     "relative_order": 2,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "0,35",
-        "scrollLine": "0"
+        "cursorPosition": "30,0",
+        "scrollLine": "21"
     },
     "folds": "",
-    "lastKnownWriteTime": 1677890382,
+    "lastKnownWriteTime": 1677891355,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1677890382906,
+    "last_content_update": 1677891355805,
     "read_only": false,
     "read_only_alternatives": []
 }
