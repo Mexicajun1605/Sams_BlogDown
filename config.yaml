@@ -17,7 +17,6 @@ menu:
       url: /about/
       weight: 3
 params:
-  avatar: "profile.jpg"
   author: Samuel Johnson
   description: Linguist, Language Instructor, Analyst
   menu_item_separator: ' - '
