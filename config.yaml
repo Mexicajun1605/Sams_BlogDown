@@ -1,48 +1,29 @@
 baseURL: https://example.com
-languageCode: en-us
-title: Don Quixote
-theme: hugo-rocinante
-paginate: 3
-summaryLength: 0
-markup:
-  goldmark:
-    renderer:
-      unsafe: yes
-  highlight:
-    style: monokailight
-    tabWidth: 2
-author:
-  name: Sid Verma
+title: Your title
+theme: hugo-theme-m10c
+paginate: 8
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 2
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 3
 params:
-  about: |
-    Hi. I'm **Don**. Some people also know me as Alonso Quixano.
-
-    I ride around on my dear horse called _Rocinante_, being the best knight I can be. I named horse Rocinante because it's the best and the most powerful horse around.
-
-    _If you see injustice around you, and need the help of an ingenious gentleman, feel free to reach out anytime. I'm usually always available._
-  email: email@example.com
-  favicon: icon/favicon.jpg
-  links:
-    - link:
-        - href: https://en.wikipedia.org/wiki/Don_Quixote
-          name: About
-          new_tab: yes
-        - href: /contact
-          name: Email
-          smart_email_link: yes
-    - link:
-        - href: https://www.goodreads.com/book/show/3836.Don_Quixote
-          name: Goodreads
-          new_tab: yes
-        - href: https://www.gutenberg.org/files/996/996-h/996-h.htm
-          name: Gutenberg
-          new_tab: yes
-        - href: https://twitter.com/search?q=%23twijote%20source%3Atwijote&src=typed_query&f=live
-          name: Twitter
-          new_tab: yes
-        - href: https://sidverma.io
-          name: Creator
-          new_tab: yes
-  mainSections:
-    - post
-    - photos
+  author: John Doe
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  menu_item_separator: ' - '
+  social:
+    - icon: github
+      name: Github
+      url: https://github.com/gohugoio
+    - icon: twitter
+      name: Twitter
+      url: https://twitter.com/gohugoio
