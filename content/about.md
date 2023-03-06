@@ -16,6 +16,9 @@ Outside of the realms of study and work, I like to spend my time hiking, making 
 
 Finally, this blog will serve for more than just study and work, but will also be a place for me to send my thoughts to the world.
 
-If you would like to see my resume [click here](/content/resume.md) and if you would like to see my CV [click here](/content/CV.md).
-
 Thank you for reading this blog and I hope that you have an excellent day.
+
+
+```{r echo = FALSE}
+xfun::embed_file('CV.pdf')
+```

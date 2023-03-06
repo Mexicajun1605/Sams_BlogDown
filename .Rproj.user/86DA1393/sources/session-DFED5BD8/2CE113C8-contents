@@ -16,6 +16,10 @@ menu:
       name: About
       url: /about/
       weight: 3
+    - identifier: CV
+      name: CV
+      url: /CV/
+      weight: 3
 params:
   avatar: "avatar.jpg"
   author: Samuel Johnson

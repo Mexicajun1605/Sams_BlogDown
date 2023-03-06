@@ -1,3 +1,8 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
 # Samuel Lamar Johnson
 
 ## _____________________________________________________________________
@@ -28,31 +33,33 @@ Intercultura, Heredia, Costa Rica
 Hinds Community College, Raymond, MS
 
 **Employment:**
+2023: Data Analyst
+La Clinica de Familia, Las Cruces, NM
+While working as a Data Analyst, I was required to use advanced skills in data analysis and visualization using spreadsheets and SQL. Other responsibilities I had included compiling compliance reports for the Federal Government.
 
 2022: Adjunct Spanish Instructor
 New Mexico State University, Las Cruces, NM
-_My responsibilities as an adjunct Spanish Instructor include both writing and
+My responsibilities as an adjunct Spanish Instructor include both writing and
 teaching lesson plans, grading classwork and tests, and facilitating classroom
 learning, both online and f2f. I also tutor and work in the Spanish
 conversation lab for more individual attention with students._
 
 2021 : Spanish Teaching Assistant
 University of Georgia, Athens, GA
-_My responsibilities as a teaching assistant at the University of Georgia
+My responsibilities as a teaching assistant at the University of Georgia
 include both writing and teaching lesson plans, grading classwork and tests,
 and facilitating classroom learning._
 
 2020-2021: Spanish Instructor
 Hinds Community College, Raymond, MS
-_My responsibilities as a Community College Instructor at Hinds included full
+My responsibilities as a Community College Instructor at Hinds included full
 charge over all beginning Spanish lessons at the Raymond campus and
 collaboration on the construction of new curricula for the students. I also
 collaborated with the Honors College to mentor an Honors Project._
 
-
 2018-2020: Spanish and French Teaching Assistant
 New Mexico State University, Las Cruces, NM
-_My responsibilities as a teaching assistant included both writing and teaching
+My responsibilities as a teaching assistant included both writing and teaching
 lesson plans, grading classwork and tests, and facilitating classroom
 learning, both online and f2f. Additionally, I worked to provide a French
 Conversation Table, French Movie nights, and worked at the Foreign
@@ -61,12 +68,12 @@ for beginner French courses._
 
 2019-2020: Spanish Translator
 New Mexico State University, Las Cruces, NM
-_As a Spanish interpreter at NMSU, I translated documents from English to
+As a Spanish interpreter at NMSU, I translated documents from English to
 Spanish on a variety of topics on a need by need basis._
 
 2018: L3 Full Customer Service Interpreter
 Language Line, Remote
-_My role as an L3 interpreter consisted of facilitating communication between
+My role as an L3 interpreter consisted of facilitating communication between
 English and Spanish monolinguals over the phone. I interpreted for
 pharmaceutical calls, banking needs, simple doctor visits, retail customer
 service, and more._
@@ -75,9 +82,6 @@ service, and more._
 
 2022: Google Data Analytics Certificate
 Coursera, online
-
-2022: Introduction to Python
-DataCamp, online
 
 2022: Hacking Secret Ciphers with Python
 Self-taught, remote
@@ -127,7 +131,7 @@ New Mexico State University.
 **Editorial Experience**
 Arenas Blancas, Language magazine
 Editorial Counsel
-_Las Cruces, NM, New Mexico State University_
+Las Cruces, NM, New Mexico State University_
 
 **Mentorship**
 Yasmin Anderson, Spanish 4 MFL 1224,
@@ -136,19 +140,19 @@ Raymond, MS, Hinds Community College,
 Honors Institute_
 
 **Conferences:**
-1 Mississippi Foreign Language Association
+1. Mississippi Foreign Language Association
 November, 2020
 Set Theory and Broadening, From Latin to Western Romance
 Virtual
-2 Hispanic Linguistics Symposium
+2. Hispanic Linguistics Symposium
 October, 2019
 Vowel Weakening in Southern New Mexico (Poster presenter)
 University of Texas at El Paso
-3 Rocky Mountain Modern Languages Association
+3. Rocky Mountain Modern Languages Association
 October, 2019
 Vowel Weakening in Southern New Mexico
 University of Texas at El Paso
-4 8th Annual Triple L Symposium
+4. 8th Annual Triple L Symposium
 September, 2019
 The Sociolinguistics of New Mexican Spanish
 New Mexico State University, Las Cruces
@@ -192,10 +196,12 @@ Portuguese, Advanced (Graduate Coursework)
 Latin, Intermediate reading knowledge
 German, Conversational
 
-**Programming technologies:**
-R
-Python
-HTML
-CSS
+**Technical Skills**
 
+- R programming, Tidyverse, Tidytext, flexdashboard
+- Python, Automation skills, pandas, matplotlib, other libraries
+- SQL, SQLite
+- Spreadsheets, Pivot Tables, Visualizations, Data Cleaning
+- Web development, HTML, CSS, Bootstrap, Javascript
+- Looker
 
