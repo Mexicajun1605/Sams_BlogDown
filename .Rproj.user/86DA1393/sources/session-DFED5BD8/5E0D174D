@@ -1,26 +1,26 @@
 {
-    "id": "41F2E209",
-    "path": "~/R/Sams_BlogDown/content/posts/Meaning Of Mardi Gras.md",
-    "project_path": "content/posts/Meaning Of Mardi Gras.md",
+    "id": "5E0D174D",
+    "path": "~/R/Sams_BlogDown/content/about.md",
+    "project_path": "content/about.md",
     "type": "markdown",
     "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1678127749133.0,
+    "created": 1678128120360.0,
     "source_on_save": false,
     "relative_order": 3,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "24,197",
-        "scrollLine": "21"
+        "cursorPosition": "18,54",
+        "scrollLine": "15"
     },
     "folds": "",
-    "lastKnownWriteTime": 1678127841,
+    "lastKnownWriteTime": 1678129496,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1678127841951,
+    "last_content_update": 1678129496874,
     "read_only": false,
     "read_only_alternatives": []
 }

@@ -28,3 +28,6 @@ params:
     - icon: linkedin
       name: Linkedin
       url: https://www.linkedin.com/in/samuel-johnson-b9263622a/
+    - icon: youtube
+      name: Youtube
+      url: https://www.youtube.com/channel/UCpOnqfVILHIOUKhW5BiEEnQ
