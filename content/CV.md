@@ -33,6 +33,7 @@ Intercultura, Heredia, Costa Rica
 Hinds Community College, Raymond, MS
 
 **Employment:**
+
 2023: Data Analyst
 La Clinica de Familia, Las Cruces, NM
 While working as a Data Analyst, I was required to use advanced skills in data analysis and visualization using spreadsheets and SQL. Other responsibilities I had included compiling compliance reports for the Federal Government.
