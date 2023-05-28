@@ -30,47 +30,47 @@ Anyways, here is the poem.
 
 # Sing Muse, the love of Orpheus
 
-From Heaven came a lyre
-And graced the artful sire, 
-Orpheus the precursor
-Of He who freed from fire.
+From Heaven came a lyre  
+And graced the artful sire,   
+Orpheus the precursor  
+Of He who freed from fire.  
 
-And struck he Reason's strings
-And pluck Melody and things
-So that Hades blessings gave 
-For his voice and lyre rings. 
+And struck he Reason's strings  
+And pluck Melody and things  
+So that Hades blessings gave   
+For his voice and lyre rings.   
 
-Wherefore made he such descent?
-The life of Eurydice spent, 
-To pass ages with the Maiden
-From mother had been rent. 
+Wherefore made he such descent?  
+The life of Eurydice spent,   
+To pass ages with the Maiden  
+From mother had been rent.   
 
-This is why by Logic Prophecy, 
-Lowered he in Holy Rhapsody
-To presage the Messiah, 
-In rescuing Eurydice. 
+This is why by Logic Prophecy,   
+Lowered he in Holy Rhapsody  
+To presage the Messiah,   
+In rescuing Eurydice.   
 
-And yet Eve partakes
-Of fruit for life's sakes
-So that in Death sleep, 
-Dies in dreams, 'nd ne'er wakes.
+And yet Eve partakes  
+Of fruit for life's sakes  
+So that in Death sleep,   
+Dies in dreams, 'nd ne'er wakes.  
 
-But the Maiden beguiled
-By the sound so mild
-Let loose the beloved 
-From the chaos and wild. 
+But the Maiden beguiled  
+By the sound so mild  
+Let loose the beloved   
+From the chaos and wild.   
 
-While life was gained, 
-The Maiden ordained, 
-He look not on love 
-While Hades maintained. 
+While life was gained,   
+The Maiden ordained,   
+He look not on love   
+While Hades maintained.   
 
-Here Humanity fails, 
-Looking back travails
-In salt to fall and fade, 
-Without mark, none prevails. 
+Here Humanity fails,   
+Looking back travails  
+In salt to fall and fade,   
+Without mark, none prevails.   
 
-What man cannot produce, 
-Even when Hell doth loose, 
-The Son of Man reveals, 
+What man cannot produce,   
+Even when Hell doth loose,   
+The Son of Man reveals,   
 Life unto Euryidice and Orpheus. 
