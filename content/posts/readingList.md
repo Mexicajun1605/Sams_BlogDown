@@ -120,7 +120,7 @@ For specific languages and how to learn them, please see my professional site at
 - The history of Rome, Livy
 - Open veins of Latin America, Eduardo Galeano
 - The Saga of Erik the Red
-- Rencontres sur le Missippi, Buzhardt, Hawthorne
+- Rencontres sur le Mississippi, Buzhardt, Hawthorne
 
 # Economics
 - Bitcoin: A peer to peer electronic cash system, Satoshi Nakamoto
