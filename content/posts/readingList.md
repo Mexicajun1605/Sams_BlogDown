@@ -128,4 +128,4 @@ For specific languages and how to learn them, please see my professional site at
 - El nuevo capitalismo, Dominique Plihon
 
 # Other
-- Viverr em paz para morrer em paz, Mario Sergio Cortella
+- Viver em paz para morrer em paz, Mario Sergio Cortella
