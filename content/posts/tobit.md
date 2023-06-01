@@ -48,6 +48,6 @@ Finally, lets analyze the themes of the Book of Tobit and parallels with the Gos
 
 I find these reasons sufficiently compelling and complete that they should warrant the Book of Tobit a place alongside the other great books of the Old Testament. Furthermore, this book helps us to understand angelology and demonology, prophecies for Christ that were not Messianic per se but undoubtedly foretold His coming, and Theosis with the Divine. 
 
-I hope that you have learned something from this post, whether you agree with me or disagree. 
+I hope that you have learned something from this post, whether you agree with me or disagree.
 
 Have a great day wherever you are and pax tibi
