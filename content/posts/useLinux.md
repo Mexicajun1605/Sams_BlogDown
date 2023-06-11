@@ -8,20 +8,20 @@ tags:
 title: Why everyone should use Linux
 ---
 
-#Why everyone should use Linux
+# Why everyone should use Linux
 
 Most of my posts recently have revolved around Theological matters or Philosophy but I wanted to write about something practical today. And that is why I think that everybody should learn how to use Linux and ditch Windows and Mac. 
 
 At the end of this post, I will also suggest some distributions for the new Linux user, since not all versions of Linux are the same. 
 
-##1. Privacy  
+## 1. Privacy  
 
 While it is probably common knowledge that Windows is not the best option for privacy, not everyone is aware of how much data Apple is collecting from its users. For more details on the specifics on how both of these platforms are taking advantage of you, check out [this article](https://www.digitaltrends.com/computing/privacy-macos-or-windows-we-asked-the-experts/) from Digital Trends. 
 Linux distributions on the other hand, do not collect your data and send it to a centralized server in the middle of God knows where, San Francisco, or anywhere elese. Nonetheless, some distributions of Linux have received scrutiny for this type of behaviour as well, such as Ubuntu, but even then, the accusations of data collection are nowhere near what we know Microsoft and Apple are up to. 
 
 Furthermore, Microsoft and Apple have closed source operating systems. This means that when someone uses their products, they have to have blind trust in the company and have been stripped of their rights to analyze and repair their rightly purchased products. Linux, however, is open sourced. This means that anyone with the patience or savoir-faire can manipulate, repair, or update their system however they see fit. With the exception of a scant few distributions this is universal in the Linux sphere. 
   
-##2. Free
+## 2. Free
 
 Second on our list and related to the first, is that Linux is free! That's right you do not have to pay to use any of the major Linux distributions. The reason why they are free is because the code used to create the OS is open, meaning anyone can just copy it and use it or modify it however they want. This does mean that the options available for Linux are super-abundant but that is overall a good thing. 
 
@@ -31,7 +31,7 @@ Even common office products, such as the equivalents to Word, Excel, Powerpoint,
 
 I can continue going on about the magic that is Open Source and how it has opened the door to freedom and ownership again, but lets move on to hardware.   
 
-##3. Longer life for your tech  
+## 3. Longer life for your tech  
 
 Finally, not only do Microsoft and Apple rob us from truly owning our software, they go the extra mile and rob us of the ownership we have on our hardware! Since these companies insist on making us use the most up to date versions of their software and using more and more sophisticated algorithms and machine learning models to steal our data. I first started noticing this the first time Windows decided to eat up all of the CPU power that one of my computers was using back in 2020. 
 
@@ -39,9 +39,9 @@ Ultimately this theft of hardware is what convinced me to switch to Linux. On th
 
 Furthermore, you get to choose how much power and how many processes your computer uses when you use Linux, unlike the Tech Giant OSes. 
 
-#What distribution should I choose?
+# What distribution should I choose?
 
-##Ubuntu
+## Ubuntu
 Possibly the most popular distribution of Linux of all time, Ubuntu is a constantly updated operating system supported by the Tech company canonical. It is very beginner friendly and where most people who start with Linux go to. It is what I started on and what I am writing this post on. 
 
 There are tons of tutorials on starting off with Linux with Ubuntu, tons of support, an App store, a mobile version and more. Without a doubt this is the go to distribution for most newbies. 
@@ -50,7 +50,7 @@ However, some people have begun to criticize Ubuntu for data collection recently
 
 To download Ubuntu, go to [ubuntu.com](https://ubuntu.com/download)
 
-##Linux Mint
+## Linux Mint
 The second major player comes in looking a lot more similar to Windows. It has a start bar, is updated regularly, and is superficially similar in many ways.
 
 Linux Mint comes in three flavors, the basic Cinnamon with all the bells and whistles, the Mate flavor which is the most stable, and the XFCE flavor which is the lightest and best on older hardware. I have used both Cinnamon and XFCE and honestly, you cannot go wrong with either. 
@@ -61,7 +61,7 @@ You cannot go wrong with this classic choice.
 
 To download Linux Mint, go to [linuxmint.com](https://linuxmint.com/)
 
-##Lubuntu
+## Lubuntu
 
 Lubuntu is distribution very similar to Ubuntu and is derived from it in fact, meaning Lite Ubuntu. 
 
@@ -71,7 +71,7 @@ While it lacks some of the bells and whistles that Ubuntu has, I still have to r
 
 To download the latest version of Lubuntu, go to [lubuntu.me](https://lubuntu.me/)
 
-#Conclusion
+# Conclusion
 
 Despite why I think that Linux is for everyone, I can acknowledge that some people will just find it too intimidating, even though it is not. Nonetheless, I hope that you have gotten something from this post and if you do decide to use Linux, please use this tutorial from [howtogeek](https://www.howtogeek.com/693588/how-to-install-linux/) to get started. 
 Using Linux has been a boon for me and I think that it will be for you too. 
