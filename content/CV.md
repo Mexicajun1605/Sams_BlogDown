@@ -5,15 +5,12 @@ output:
 ---
 # Samuel Lamar Johnson
 
-## _____________________________________________________________________
-
-
-Las Cruces, NM | samuellamar.johnson@gmail.com
-601-738-7853
 _____________________________________________________________________
 
-**Education:**
+Las Cruces, NM | samuellamar.johnson@gmail.com | 601-738-7853
+_____________________________________________________________________
 
+**Education:** 
 2020: M.A. Hispanic Linguistics
 New Mexico State University, Las Cruces, NM
 Minor, English Linguistics
@@ -32,15 +29,19 @@ Intercultura, Heredia, Costa Rica
 2015: Associates Degree in General Studies
 Hinds Community College, Raymond, MS
 
-**Employment:**
+**Employment:** 
+2023: Portuguese Instructor
+New Mexico State University, Las Cruces, NM
+My responsibilities as a Portuguese Instructor include both writing and
+teaching lesson plans, grading classwork and tests, and facilitating language learning. 
 
 2023: Data Analyst
 La Clinica de Familia, Las Cruces, NM
 While working as a Data Analyst, I was required to use advanced skills in data analysis and visualization using spreadsheets and SQL. Other responsibilities I had included compiling compliance reports for the Federal Government.
 
-2022: Adjunct Spanish Instructor
+2022: Spanish Instructor
 New Mexico State University, Las Cruces, NM
-My responsibilities as an adjunct Spanish Instructor include both writing and
+My responsibilities as a Spanish Instructor include both writing and
 teaching lesson plans, grading classwork and tests, and facilitating classroom
 learning, both online and f2f. I also tutor and work in the Spanish
 conversation lab for more individual attention with students._
@@ -79,7 +80,15 @@ English and Spanish monolinguals over the phone. I interpreted for
 pharmaceutical calls, banking needs, simple doctor visits, retail customer
 service, and more._
 
-**Additional Education and Certifications:**
+**Additional Education and Certifications:** 
+2023: Freecodecamp Ruby on Rails, 
+Self-taught, online
+
+2023: Head First Ruby 
+Self-taught, remote
+
+2023: Introduction to Probability and Statistics with R 
+Coursera, online
 
 2022: Google Data Analytics Certificate
 Coursera, online
@@ -87,14 +96,10 @@ Coursera, online
 2022: Hacking Secret Ciphers with Python
 Self-taught, remote
 
-2021: Introduction to R programming
-Datacamp, online
-
 2020: Beyond Beginner Latin
 Lexington Community Education, online
 
-**Honors and Awards:**
-
+**Honors and Awards:** 
 2021: Honored Faculty Mentor
 Hinds Community College, Raymond, MS
 
@@ -105,8 +110,7 @@ Hinds Community College, Raymond, MS
 New Mexico State University, Las Cruces, NM
 
 
-**Research Experience:**
-
+**Research Experience:** 
 2022: Litecoin as a store of value
 Google Data Analytics Capstone project, Remote
 
@@ -116,31 +120,30 @@ New Mexico State University, Las Cruces, NM
 2019: Mayan-Spanish Bilingualism in Valladolid, MX
 New Mexico State University, Las Cruces, NM
 
-**Volunteer Experience:**
-
+**Volunteer Experience:** 
 2018: La gente del Puente, Donations organizer and distributor
 New Mexico State University, Las Cruces, NM
 
 2017: Iglesia Vida, Lessons Translator
 Hattiesburg, MS
 
-**Publications:**
+**Publications:** 
 Johnson. S, (2020) _Cerca de Perlas, La Delta, Carta al gringo mexicano, boliviano
 costarricense......_ Arenas Blancas (No. 15) Department of Languages and Linguistics,
 New Mexico State University.
 
-**Editorial Experience**
+**Editorial Experience** 
 Arenas Blancas, Language magazine
 Editorial Counsel
 Las Cruces, NM, New Mexico State University_
 
-**Mentorship**
+**Mentorship** 
 Yasmin Anderson, Spanish 4 MFL 1224,
 Honors project, _El estigma del español
 Raymond, MS, Hinds Community College,
 Honors Institute_
 
-**Conferences:**
+**Conferences:** 
 1. Mississippi Foreign Language Association
 November, 2020
 Set Theory and Broadening, From Latin to Western Romance
@@ -158,26 +161,26 @@ September, 2019
 The Sociolinguistics of New Mexican Spanish
 New Mexico State University, Las Cruces
 
-**Outreach**
+**Outreach** 
 CactusHeart, a podcast for learning Spanish
 In a semi-immersive way through dialogue
 _Online_
 
-**Professional Memberships:**
+**Professional Memberships:** 
 Rocky Mountain Modern Language Association
 _Las Cruces, NM, New Mexico State University_
 
 Lambda Kappa, Portuguese Honors Society
 _Las Cruces, NM, New Mexico State University_
 
-**Workshops conducted:**
+**Workshops conducted:** 
 How to teach yourself foreign languages, 2019
 _Las Cruces, NM, New Mexico State University_
 
 The History of French Photography, 2018
 _Las Cruces, NM, New Mexico State University_
 
-**Professional Development:**
+**Professional Development:** 
 The basics of R programming, 2021
 _Georgia Advanced Computing Resource Center,
 Athens, GA, University of Georgia_
@@ -190,15 +193,15 @@ The Institutional Review Board Process, 2018
 _Dr. Patricia MacGregor Mendoza,
 Las Cruces, NM, New Mexico State University_
 
-**Languages:**
+**Languages:** 
 Spanish, Advanced High, Fluent (Graduate Coursework)
 French, Advanced, Fluent (Graduate Coursework)
 Portuguese, Advanced (Graduate Coursework)
 Latin, Intermediate reading knowledge
 German, Conversational
 
-**Technical Skills**
-
+**Technical Skills** 
+- Ruby programming, Rails, Sinatra
 - R programming, Tidyverse, Tidytext, flexdashboard
 - Python, Automation skills, pandas, matplotlib, other libraries
 - SQL, SQLite

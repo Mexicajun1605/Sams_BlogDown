@@ -4,21 +4,12 @@ title: About
 
 Hola, Bonjour, Wie gehts, Tudo bem, annyeong, et Salve, 
 
-My name is Sam and I am a lifelong learner. As a linguist, instructor, and analyst/researcher. Professionally my passions include researching linguistics, teaching languages, with experience in French and Spanish, and analyzing data to find patterns and insights to learn and teach new things. 
+My name is Sam and I am a lifelong learner. As a linguist, instructor, and analyst/researcher. Professionally my passions include researching linguistics, teaching languages, with experience in French, Portuguese, and Spanish, analyzing data to find patterns and insights to learn and teach new things, qualitative research, and I also do some Web development as well. 
 
 Some of the tools that I am passionate about are the R and Ruby programming languages. I also use Python, however, I am no longer as excited about this language as I once was. Some examples of my work in these languages can be found on this site. I hope that you enjoy them. 
 
-Some of my goals are to improve my abilities in Statistics, Data Science, Natural Language Processing, and of course learning more languages. I tend to learn by doing so keep up with the blog to see more projects. 
+The languages that I speak in order of proficiency are English, Native, Spanish, in which I have an M.A, French, with teaching experience, Portuguese, Latin, German, and I know pieces or facts of other languages such as Persian, Korean, Japanese, Greek, Russian, Yucatec Mayan, and Sanskrit. 
 
-The languages that I speak in order of proficiency are English, Native, Spanish, in which I have an M.A, French, with teaching experience, Portuguese, Latin, German, and I know pieces or facts of other languages such as Persian, Korean, Japanese, Greek, Russian, Yucatec Mayan, and Sanskrit
+I am currently looking for work in tech or education, or both while I adjunct as a Portuguese instructor at New Mexico state and work as a Head Lifeguard for the Parks and Recreation department of Las Cruces, NM. 
 
 Outside of the realms of study and work, I like to spend my time hiking, making and maintaining terrariums, photography, playing video games, usually in another language, and spending time with my wife and cat. 
-
-Finally, this blog will serve for more than just study and work, but will also be a place for me to send my thoughts to the world.
-
-Thank you for reading this blog and I hope that you have an excellent day.
-
-
-```{r echo = FALSE}
-xfun::embed_file('CV.pdf')
-```
