@@ -1,7 +1,5 @@
 ---
-output:
-  html_document: default
-  pdf_document: default
+title: CV
 ---
 # Samuel Lamar Johnson
 
@@ -11,6 +9,7 @@ Las Cruces, NM | samuellamar.johnson@gmail.com | 601-738-7853
 _____________________________________________________________________
 
 **Education:** 
+
 2020: M.A. Hispanic Linguistics
 New Mexico State University, Las Cruces, NM
 Minor, English Linguistics
@@ -30,6 +29,7 @@ Intercultura, Heredia, Costa Rica
 Hinds Community College, Raymond, MS
 
 **Employment:** 
+
 2023: Portuguese Instructor
 New Mexico State University, Las Cruces, NM
 My responsibilities as a Portuguese Instructor include both writing and
@@ -81,6 +81,7 @@ pharmaceutical calls, banking needs, simple doctor visits, retail customer
 service, and more._
 
 **Additional Education and Certifications:** 
+
 2023: Freecodecamp Ruby on Rails, 
 Self-taught, online
 
@@ -100,6 +101,7 @@ Self-taught, remote
 Lexington Community Education, online
 
 **Honors and Awards:** 
+
 2021: Honored Faculty Mentor
 Hinds Community College, Raymond, MS
 
@@ -111,6 +113,7 @@ New Mexico State University, Las Cruces, NM
 
 
 **Research Experience:** 
+
 2022: Litecoin as a store of value
 Google Data Analytics Capstone project, Remote
 
@@ -121,6 +124,7 @@ New Mexico State University, Las Cruces, NM
 New Mexico State University, Las Cruces, NM
 
 **Volunteer Experience:** 
+
 2018: La gente del Puente, Donations organizer and distributor
 New Mexico State University, Las Cruces, NM
 
@@ -128,22 +132,26 @@ New Mexico State University, Las Cruces, NM
 Hattiesburg, MS
 
 **Publications:** 
+
 Johnson. S, (2020) _Cerca de Perlas, La Delta, Carta al gringo mexicano, boliviano
 costarricense......_ Arenas Blancas (No. 15) Department of Languages and Linguistics,
 New Mexico State University.
 
 **Editorial Experience** 
+
 Arenas Blancas, Language magazine
 Editorial Counsel
 Las Cruces, NM, New Mexico State University_
 
 **Mentorship** 
+
 Yasmin Anderson, Spanish 4 MFL 1224,
 Honors project, _El estigma del español
 Raymond, MS, Hinds Community College,
 Honors Institute_
 
 **Conferences:** 
+
 1. Mississippi Foreign Language Association
 November, 2020
 Set Theory and Broadening, From Latin to Western Romance
@@ -162,11 +170,13 @@ The Sociolinguistics of New Mexican Spanish
 New Mexico State University, Las Cruces
 
 **Outreach** 
+
 CactusHeart, a podcast for learning Spanish
 In a semi-immersive way through dialogue
 _Online_
 
 **Professional Memberships:** 
+
 Rocky Mountain Modern Language Association
 _Las Cruces, NM, New Mexico State University_
 
@@ -174,6 +184,7 @@ Lambda Kappa, Portuguese Honors Society
 _Las Cruces, NM, New Mexico State University_
 
 **Workshops conducted:** 
+
 How to teach yourself foreign languages, 2019
 _Las Cruces, NM, New Mexico State University_
 
@@ -181,6 +192,7 @@ The History of French Photography, 2018
 _Las Cruces, NM, New Mexico State University_
 
 **Professional Development:** 
+
 The basics of R programming, 2021
 _Georgia Advanced Computing Resource Center,
 Athens, GA, University of Georgia_
@@ -194,6 +206,7 @@ _Dr. Patricia MacGregor Mendoza,
 Las Cruces, NM, New Mexico State University_
 
 **Languages:** 
+
 Spanish, Advanced High, Fluent (Graduate Coursework)
 French, Advanced, Fluent (Graduate Coursework)
 Portuguese, Advanced (Graduate Coursework)
@@ -201,6 +214,7 @@ Latin, Intermediate reading knowledge
 German, Conversational
 
 **Technical Skills** 
+
 - Ruby programming, Rails, Sinatra
 - R programming, Tidyverse, Tidytext, flexdashboard
 - Python, Automation skills, pandas, matplotlib, other libraries
