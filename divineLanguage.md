@@ -1,5 +1,5 @@
 ---
-date: "2023-09-17"
+date: "2023-09-16"
 tags:
 - Language
 - Linguistics
