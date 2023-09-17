@@ -18,7 +18,7 @@ menu:
       weight: 3
 
 params:
-  avatar: "avatar.jpg"
+  avatar: "celtic_cross.png"
   author: Samuel Johnson
   description: Linguist, Language Instructor, Analyst
   menu_item_separator: ' - '
