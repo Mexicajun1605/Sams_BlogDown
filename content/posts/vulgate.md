@@ -1,12 +1,12 @@
 ---
-title: "A text analysis of the Vulgate"
+date: "2023-09-26"
 tags:
 - Latin
 - Linguistics
 - Christianity
 - R
 - Computers
-date: "2023-09-25"
+title: "A text analysis of the Vulgate"
 ---
 
 # Analyzing the Clementine Vulgate with R
