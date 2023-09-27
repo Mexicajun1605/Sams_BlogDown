@@ -1,3 +1,14 @@
+---
+title: "A text analysis of the Vulgate"
+tags:
+- Latin
+- Linguistics
+- Christianity
+- R
+- Computers
+date: "2023-09-25"
+---
+
 # Analyzing the Clementine Vulgate with R
 
 I am a firm believer in the holiness and sacred nature of the Latin
