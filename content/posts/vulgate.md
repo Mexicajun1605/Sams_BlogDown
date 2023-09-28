@@ -34,12 +34,7 @@ appertaining to something else, Dative, indirect object or indicating to
 something, and the Ablative, meaning source of origin or the means by
 which something is done.
 
-# Most common words in the vulgate
-
-    #Plotting out the most frequent terms in the Vulgate
-    ggplot(data = vulgateCount) + aes(word, frequency) + geom_col(fill = "lightgreen") +
-       geom_text(aes(label = frequency)) +
-      theme(axis.text = element_text(angle = 45))
+# Most common words in the vulgate 
 
 ![](vulgate_files/figure-markdown_strict/unnamed-chunk-1-1.png)
 
@@ -74,13 +69,6 @@ Before moving on, lets look at a Wordcloud of the most common terms.
 Wordclouds are useful for visualizing the frequency of words in size
 compared to others.
 
-    tidyVulgate %>% 
-    anti_join(stop_words) %>% 
-      count(word) %>% 
-      with(wordcloud(word, n, max.words = 50))
-
-    ## Joining with `by = join_by(word)`
-
 ![](vulgate_files/figure-markdown_strict/unnamed-chunk-2-1.png)
 
 # What ideas are closest in the Vulgate?
@@ -92,13 +80,9 @@ and connected to the word it most frequently appears next to via a line.
 The following graph will connect all of the bigrams that appear more
 than 30 times in the Vulgate.
 
-    ggraph(vulgateGraph, layout = "fr") + 
-      geom_edge_link() + 
-      geom_node_point() + 
-      geom_node_text(aes(label = name), vjust = 1, hjust =1)
+![](vulgate_files/figure-markdown_strict/unnamed-chunk-3-1.png) 
 
-![](vulgate_files/figure-markdown_strict/unnamed-chunk-3-1.png) Once
-again, we can see that the most common nexus or webcenter of ideas in
+Once again, we can see that the most common nexus or webcenter of ideas in
 the Vulgate is the Lord, with Domini occupying our densest cluster of
 ideas.
 
@@ -121,13 +105,9 @@ positive and negative.
 Naturally we have run the whole Vulgate through the lexicon to find the
 most common emotions and sentiments as can be seen below.
 
-    nrcMotions %>% 
-      ggplot() + aes(sentiment, frequency) + geom_col(fill = 'lightgreen') + 
-      geom_text(aes(label = frequency)) +
-      theme(axis.text = element_text(angle = 45)) 
+![](vulgate_files/figure-markdown_strict/unnamed-chunk-4-1.png) 
 
-![](vulgate_files/figure-markdown_strict/unnamed-chunk-4-1.png) Once
-again, the graphs explain the message of Scripture. Positivity and Trust
+Once again, the graphs explain the message of Scripture. Positivity and Trust
 abound within this book. Trust alone accounts for nearly double the
 second most common emotion of fear while there are nearly ten thousand
 more representations of positivity as opposed to negativity, indicating
@@ -140,220 +120,42 @@ contributing the most to each emotion down below.
 
 # Anger
 
-    nrc %>% 
-      inner_join(tidyVulgate) %>% 
-      filter(sentiment == "anger") %>% 
-      count(word, sort = TRUE) %>% 
-      rename(frequency = n) %>% 
-      filter(frequency > 139) %>% 
-      ggplot() + aes(word, frequency) + geom_col(fill = 'lightgreen') + 
-      geom_text(aes(label = frequency)) +
-      theme(axis.text = element_text(angle = 45)) 
-
-    ## Joining with `by = join_by(word)`
-
-    ## Warning in inner_join(., tidyVulgate): Detected an unexpected many-to-many relationship between `x` and `y`.
-    ## ℹ Row 2 of `x` matches multiple rows in `y`.
-    ## ℹ Row 11469 of `y` matches multiple rows in `x`.
-    ## ℹ If a many-to-many relationship is expected, set `relationship =
-    ##   "many-to-many"` to silence this warning.
-
 ![](vulgate_files/figure-markdown_strict/unnamed-chunk-5-1.png)
 
 # Surprise
-
-    nrc %>% 
-      inner_join(tidyVulgate) %>% 
-      filter(sentiment == "trust") %>% 
-      count(word, sort = TRUE) %>% 
-      rename(frequency = n) %>% 
-      filter(frequency > 139) %>% 
-      ggplot() + aes(word, frequency) + geom_col(fill = 'lightgreen') + 
-      geom_text(aes(label = frequency)) +
-      theme(axis.text = element_text(angle = 45)) 
-
-    ## Joining with `by = join_by(word)`
-
-    ## Warning in inner_join(., tidyVulgate): Detected an unexpected many-to-many relationship between `x` and `y`.
-    ## ℹ Row 2 of `x` matches multiple rows in `y`.
-    ## ℹ Row 11469 of `y` matches multiple rows in `x`.
-    ## ℹ If a many-to-many relationship is expected, set `relationship =
-    ##   "many-to-many"` to silence this warning.
 
 ![](vulgate_files/figure-markdown_strict/unnamed-chunk-6-1.png)
 
 # Anticipation
 
-    nrc %>% 
-      inner_join(tidyVulgate) %>% 
-      filter(sentiment == "anticipation") %>% 
-      count(word, sort = TRUE) %>% 
-      rename(frequency = n) %>% 
-      filter(frequency > 139) %>% 
-      ggplot() + aes(word, frequency) + geom_col(fill = 'lightgreen') + 
-      geom_text(aes(label = frequency)) +
-      theme(axis.text = element_text(angle = 45)) 
-
-    ## Joining with `by = join_by(word)`
-
-    ## Warning in inner_join(., tidyVulgate): Detected an unexpected many-to-many relationship between `x` and `y`.
-    ## ℹ Row 2 of `x` matches multiple rows in `y`.
-    ## ℹ Row 11469 of `y` matches multiple rows in `x`.
-    ## ℹ If a many-to-many relationship is expected, set `relationship =
-    ##   "many-to-many"` to silence this warning.
-
 ![](vulgate_files/figure-markdown_strict/unnamed-chunk-7-1.png)
 
 # Disgust
-
-    nrc %>% 
-      inner_join(tidyVulgate) %>% 
-      filter(sentiment == "disgust") %>% 
-      count(word, sort = TRUE) %>% 
-      rename(frequency = n) %>% 
-      filter(frequency > 139) %>% 
-      ggplot() + aes(word, frequency) + geom_col(fill = 'lightgreen') + 
-      geom_text(aes(label = frequency)) +
-      theme(axis.text = element_text(angle = 45)) 
-
-    ## Joining with `by = join_by(word)`
-
-    ## Warning in inner_join(., tidyVulgate): Detected an unexpected many-to-many relationship between `x` and `y`.
-    ## ℹ Row 2 of `x` matches multiple rows in `y`.
-    ## ℹ Row 11469 of `y` matches multiple rows in `x`.
-    ## ℹ If a many-to-many relationship is expected, set `relationship =
-    ##   "many-to-many"` to silence this warning.
 
 ![](vulgate_files/figure-markdown_strict/unnamed-chunk-8-1.png)
 
 # Fear
 
-    nrc %>% 
-      inner_join(tidyVulgate) %>% 
-      filter(sentiment == "fear") %>% 
-      count(word, sort = TRUE) %>% 
-      rename(frequency = n) %>% 
-      filter(frequency > 139) %>% 
-      ggplot() + aes(word, frequency) + geom_col(fill = 'lightgreen') + 
-      geom_text(aes(label = frequency)) +
-      theme(axis.text = element_text(angle = 45)) 
-
-    ## Joining with `by = join_by(word)`
-
-    ## Warning in inner_join(., tidyVulgate): Detected an unexpected many-to-many relationship between `x` and `y`.
-    ## ℹ Row 2 of `x` matches multiple rows in `y`.
-    ## ℹ Row 11469 of `y` matches multiple rows in `x`.
-    ## ℹ If a many-to-many relationship is expected, set `relationship =
-    ##   "many-to-many"` to silence this warning.
-
 ![](vulgate_files/figure-markdown_strict/unnamed-chunk-9-1.png)
 
 # Sadness
-
-    nrc %>% 
-      inner_join(tidyVulgate) %>% 
-      filter(sentiment == "sadness") %>% 
-      count(word, sort = TRUE) %>% 
-      rename(frequency = n) %>% 
-      filter(frequency > 139) %>% 
-      ggplot() + aes(word, frequency) + geom_col(fill = 'lightgreen') + 
-      geom_text(aes(label = frequency)) +
-      theme(axis.text = element_text(angle = 45)) 
-
-    ## Joining with `by = join_by(word)`
-
-    ## Warning in inner_join(., tidyVulgate): Detected an unexpected many-to-many relationship between `x` and `y`.
-    ## ℹ Row 2 of `x` matches multiple rows in `y`.
-    ## ℹ Row 11469 of `y` matches multiple rows in `x`.
-    ## ℹ If a many-to-many relationship is expected, set `relationship =
-    ##   "many-to-many"` to silence this warning.
 
 ![](vulgate_files/figure-markdown_strict/unnamed-chunk-10-1.png)
 
 # Surprise
 
-    nrc %>% 
-      inner_join(tidyVulgate) %>% 
-      filter(sentiment == "surprise") %>% 
-      count(word, sort = TRUE) %>% 
-      rename(frequency = n) %>% 
-      filter(frequency > 139) %>% 
-      ggplot() + aes(word, frequency) + geom_col(fill = 'lightgreen') + 
-      geom_text(aes(label = frequency)) +
-      theme(axis.text = element_text(angle = 45)) 
-
-    ## Joining with `by = join_by(word)`
-
-    ## Warning in inner_join(., tidyVulgate): Detected an unexpected many-to-many relationship between `x` and `y`.
-    ## ℹ Row 2 of `x` matches multiple rows in `y`.
-    ## ℹ Row 11469 of `y` matches multiple rows in `x`.
-    ## ℹ If a many-to-many relationship is expected, set `relationship =
-    ##   "many-to-many"` to silence this warning.
-
 ![](vulgate_files/figure-markdown_strict/unnamed-chunk-11-1.png)
 
 # Trust
 
-    nrc %>% 
-      inner_join(tidyVulgate) %>% 
-      filter(sentiment == "trust") %>% 
-      count(word, sort = TRUE) %>% 
-      rename(frequency = n) %>% 
-      filter(frequency > 139) %>% 
-      ggplot() + aes(word, frequency) + geom_col(fill = 'lightgreen') + 
-      geom_text(aes(label = frequency)) +
-      theme(axis.text = element_text(angle = 45)) 
+![](vulgate_files/figure-markdown_strict/unnamed-chunk-12-1.png) 
 
-    ## Joining with `by = join_by(word)`
-
-    ## Warning in inner_join(., tidyVulgate): Detected an unexpected many-to-many relationship between `x` and `y`.
-    ## ℹ Row 2 of `x` matches multiple rows in `y`.
-    ## ℹ Row 11469 of `y` matches multiple rows in `x`.
-    ## ℹ If a many-to-many relationship is expected, set `relationship =
-    ##   "many-to-many"` to silence this warning.
-
-![](vulgate_files/figure-markdown_strict/unnamed-chunk-12-1.png) \#
-Negative
-
-    nrc %>% 
-      inner_join(tidyVulgate) %>% 
-      filter(sentiment == "negative") %>% 
-      count(word, sort = TRUE) %>% 
-      rename(frequency = n) %>% 
-      filter(frequency > 139) %>% 
-      ggplot() + aes(word, frequency) + geom_col(fill = 'lightgreen') + 
-      geom_text(aes(label = frequency)) +
-      theme(axis.text = element_text(angle = 45)) 
-
-    ## Joining with `by = join_by(word)`
-
-    ## Warning in inner_join(., tidyVulgate): Detected an unexpected many-to-many relationship between `x` and `y`.
-    ## ℹ Row 2 of `x` matches multiple rows in `y`.
-    ## ℹ Row 11469 of `y` matches multiple rows in `x`.
-    ## ℹ If a many-to-many relationship is expected, set `relationship =
-    ##   "many-to-many"` to silence this warning.
+#Negative
 
 ![](vulgate_files/figure-markdown_strict/unnamed-chunk-13-1.png)
 
 # Positive
 
-    nrc %>% 
-      inner_join(tidyVulgate) %>% 
-      filter(sentiment == "positive") %>% 
-      count(word, sort = TRUE) %>% 
-      rename(frequency = n) %>% 
-      filter(frequency > 139) %>% 
-      ggplot() + aes(word, frequency) + geom_col(fill = 'lightgreen') + 
-      geom_text(aes(label = frequency)) +
-      theme(axis.text = element_text(angle = 45)) 
-
-    ## Joining with `by = join_by(word)`
-
-    ## Warning in inner_join(., tidyVulgate): Detected an unexpected many-to-many relationship between `x` and `y`.
-    ## ℹ Row 2 of `x` matches multiple rows in `y`.
-    ## ℹ Row 11469 of `y` matches multiple rows in `x`.
-    ## ℹ If a many-to-many relationship is expected, set `relationship =
-    ##   "many-to-many"` to silence this warning.
 
 ![](vulgate_files/figure-markdown_strict/unnamed-chunk-14-1.png)
 
@@ -364,7 +166,7 @@ version of the Latin NRC Lexicon. The one available on Muhammad and
 Turner’s site is a bit too much for what I imagine most people will need
 and so I have tidied it to be more like the one used in the tidytext
 library’s get\_sentiment function. You can download this version
-[here](%22latin_nrc_lex.csv%22)
+[here](vulgate_files/latin_nrc_lex.csv)
 
 While this was a fun project, I think that we can use computational
 methods for analyzing scripture beyond just what is exploratory. And
