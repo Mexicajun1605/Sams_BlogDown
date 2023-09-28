@@ -36,7 +36,7 @@ which something is done.
 
 # Most common words in the vulgate 
 
-![](images/vulgate_files/unnamed-chunk-1-1.png)
+![](/images/vulgate_files/unnamed-chunk-1-1.png)
 
 So for our first question, what are the most common words in the
 Vulgate? For that, we can consult the graph above. Unsurprisingly, out
@@ -69,7 +69,7 @@ Before moving on, lets look at a Wordcloud of the most common terms.
 Wordclouds are useful for visualizing the frequency of words in size
 compared to others.
 
-![](images/vulgate_files/figure-markdown_strict/unnamed-chunk-2-1.png)
+![](/images/vulgate_files/figure-markdown_strict/unnamed-chunk-2-1.png)
 
 # What ideas are closest in the Vulgate?
 
@@ -80,7 +80,7 @@ and connected to the word it most frequently appears next to via a line.
 The following graph will connect all of the bigrams that appear more
 than 30 times in the Vulgate.
 
-![](images/vulgate_files/figure-markdown_strict/unnamed-chunk-3-1.png) 
+![](/images/vulgate_files/figure-markdown_strict/unnamed-chunk-3-1.png) 
 
 Once again, we can see that the most common nexus or webcenter of ideas in
 the Vulgate is the Lord, with Domini occupying our densest cluster of
@@ -105,7 +105,7 @@ positive and negative.
 Naturally we have run the whole Vulgate through the lexicon to find the
 most common emotions and sentiments as can be seen below.
 
-![](images/vulgate_files/figure-markdown_strict/unnamed-chunk-4-1.png) 
+![](/images/vulgate_files/figure-markdown_strict/unnamed-chunk-4-1.png) 
 
 Once again, the graphs explain the message of Scripture. Positivity and Trust
 abound within this book. Trust alone accounts for nearly double the
@@ -120,43 +120,43 @@ contributing the most to each emotion down below.
 
 # Anger
 
-![](images/vulgate_files/figure-markdown_strict/unnamed-chunk-5-1.png)
+![](/images/vulgate_files/figure-markdown_strict/unnamed-chunk-5-1.png)
 
 # Surprise
 
-![](images/vulgate_files/figure-markdown_strict/unnamed-chunk-6-1.png)
+![](/images/vulgate_files/figure-markdown_strict/unnamed-chunk-6-1.png)
 
 # Anticipation
 
-![](images/vulgate_files/figure-markdown_strict/unnamed-chunk-7-1.png)
+![](/images/vulgate_files/figure-markdown_strict/unnamed-chunk-7-1.png)
 
 # Disgust
 
-![](images/vulgate_files/figure-markdown_strict/unnamed-chunk-8-1.png)
+![](/images/vulgate_files/figure-markdown_strict/unnamed-chunk-8-1.png)
 
 # Fear
 
-![](images/vulgate_files/figure-markdown_strict/unnamed-chunk-9-1.png)
+![](/images/vulgate_files/figure-markdown_strict/unnamed-chunk-9-1.png)
 
 # Sadness
 
-![](images/vulgate_files/figure-markdown_strict/unnamed-chunk-10-1.png)
+![](/images/vulgate_files/figure-markdown_strict/unnamed-chunk-10-1.png)
 
 # Surprise
 
-![](images/vulgate_files/figure-markdown_strict/unnamed-chunk-11-1.png)
+![](/images/vulgate_files/figure-markdown_strict/unnamed-chunk-11-1.png)
 
 # Trust
 
-![](images/vulgate_files/figure-markdown_strict/unnamed-chunk-12-1.png) 
+![](/images/vulgate_files/figure-markdown_strict/unnamed-chunk-12-1.png) 
 
 # Negative
 
-![](images/vulgate_files/figure-markdown_strict/unnamed-chunk-13-1.png)
+![](/images/vulgate_files/figure-markdown_strict/unnamed-chunk-13-1.png)
 
 # Positive 
 
-![](images/vulgate_files/figure-markdown_strict/unnamed-chunk-14-1.png)
+![](/images/vulgate_files/figure-markdown_strict/unnamed-chunk-14-1.png)
 
 # Conclusion
 
