@@ -36,7 +36,7 @@ which something is done.
 
 # Most common words in the vulgate 
 
-![](vulgate_files/figure-markdown_strict/unnamed-chunk-1-1.png)
+![](./vulgate_files/figure-markdown_strict/unnamed-chunk-1-1.png)
 
 So for our first question, what are the most common words in the
 Vulgate? For that, we can consult the graph above. Unsurprisingly, out
@@ -185,3 +185,109 @@ Pax domini tecum Gratias Deo,
     Latin)
 -   Mohammad, S. M., & Turney, P. D. (2013). Nrc emotion lexicon.
     National Research Council, Canada, 2, 234.
+
+## Code used
+
+``` 
+library(tidyverse)
+library(tidytext)
+library(wordcloud)
+library(ggraph)
+library(igraph)
+
+#The version of the vulgate here is the Clementine Vulgate
+#Thanks to Luke Smith for making this available as a tsv file on github
+vulgate <- read_tsv("vulgate.tsv")
+
+#Loading in the stop words
+stop_verba <- get_stopwords(language = "la", source = "ancient")
+numbers <- lapply(vulgate$Verse, str_replace_all("\\D", "", vulgate$Verse))
+
+tidyVulgate <- vulgate %>% 
+  mutate(line_number = row_number()) %>%
+  select(line_number, Verse) %>% 
+  ungroup() %>%
+  unnest_tokens(word, Verse) %>% 
+  anti_join(stop_verba)
+
+#Counting what words are the most common in the Vulgate
+vulgateCount <- tidyVulgate %>% 
+  count(word, sort = TRUE) %>% 
+  rename(frequency = n) %>% 
+  filter(frequency > 1000)
+#This is how we are going to remove the Chapter and Verse numbers
+vulgateCount$word <- str_remove_all(vulgateCount$word, "[0-9]")
+
+#Plotting out the most frequent terms in the Vulgate
+ggplot(data = vulgateCount) + aes(word, frequency) + geom_col() +
+  theme(axis.text = element_text(angle = 45))
+
+#Lets create some bigrams
+bigrams <- vulgate %>% 
+  mutate(line_number = row_number()) %>%
+  select(line_number, Verse) %>% 
+  ungroup() %>%
+  unnest_tokens(bigram, Verse, "ngrams", n = 2)
+
+#Now we will separate the bigrams
+separateGrams <- bigrams %>% 
+  separate(bigram, c("word1", "word2"), sep = " ")
+
+#Removing stop words
+bifilter <- separateGrams %>% 
+  filter(!word1 %in% stop_verba$word) %>% 
+  filter(!word2 %in% stop_verba$word)
+
+#Lets create an ordered Count of bigrams
+biCount <- bifilter %>% 
+  count(word1, word2, sort = TRUE)
+
+#Lets find what words are most related to what words
+vulgateGraph <- biCount %>% 
+  filter(n > 30) %>% 
+  graph_from_data_frame()
+
+#Lets graph those words
+ggraph(vulgateGraph, layout = "fr") + 
+  geom_edge_link() + 
+  geom_node_point() + 
+  geom_node_text(aes(label = name), vjust = 1, hjust =1)
+
+#NRC Sentiment Analysis
+nrc <- read_tsv("Latin-NRC-EmoLex.txt")
+nrc <- nrc %>% 
+  select(-"English Word") %>% 
+  pivot_longer(1:10) %>% 
+  filter(value == 1) %>% 
+  select(-value) %>% 
+  rename(sentiment = name) %>% 
+  rename(word = 'Latin Word')
+
+#Graphing out the emotions most present in the Vulgate
+nrcMotions <- tidyVulgate %>% 
+  inner_join(nrc) %>% 
+  count(sentiment, sort = TRUE) %>% 
+  rename(frequency = n)
+
+nrcMotions %>% 
+  ggplot() + aes(sentiment, frequency) + geom_col(fill = 'lightgreen') + 
+  geom_text(aes(label = frequency)) +
+  theme(axis.text = element_text(angle = 45)) 
+
+#Filtering out and counting the most common word of each emotion. 
+nrc %>% 
+  inner_join(tidyVulgate) %>% 
+  filter(sentiment == "anger") %>% 
+  count(word, sort = TRUE) %>% 
+  rename(frequency = n) %>% 
+  filter(frequency > 139) %>% 
+  ggplot() + aes(word, frequency) + geom_col(fill = 'lightgreen') + 
+  geom_text(aes(label = frequency)) +
+  theme(axis.text = element_text(angle = 45)) 
+
+#Writing a csv of the Latin NRC for the reader to download
+#This version is simplified for use like the one available in the
+#Tidytext function and library
+write.csv(nrc, 'latin_nrc_lex.csv')
+
+```
