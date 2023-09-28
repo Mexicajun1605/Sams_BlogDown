@@ -36,7 +36,7 @@ which something is done.
 
 # Most common words in the vulgate 
 
-![](vulgate_files/figure-markdown_strict/unnamed-chunk-1-1.png)
+![](/vulgate_files/figure-markdown_strict/unnamed-chunk-1-1.png)
 
 So for our first question, what are the most common words in the
 Vulgate? For that, we can consult the graph above. Unsurprisingly, out
@@ -150,7 +150,7 @@ contributing the most to each emotion down below.
 
 ![](vulgate_files/figure-markdown_strict/unnamed-chunk-12-1.png) 
 
-#Negative
+# Negative
 
 ![](vulgate_files/figure-markdown_strict/unnamed-chunk-13-1.png)
 
@@ -166,7 +166,7 @@ version of the Latin NRC Lexicon. The one available on Muhammad and
 Turner’s site is a bit too much for what I imagine most people will need
 and so I have tidied it to be more like the one used in the tidytext
 library’s get\_sentiment function. You can download this version
-[here](vulgate_files/latin_nrc_lex.csv)
+[here](https://github.com/Mexicajun1605/Sams_BlogDown/blob/main/content/posts/vulgate_files/latin_nrc_lex.csv)
 
 While this was a fun project, I think that we can use computational
 methods for analyzing scripture beyond just what is exploratory. And
