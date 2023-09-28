@@ -1,4 +1,4 @@
-baseURL: https://samlj.netlify.app/
+baseURL: /
 title: Sam's Site
 theme: hugo-theme-m10c
 paginate: 8
