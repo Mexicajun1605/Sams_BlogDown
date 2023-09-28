@@ -36,7 +36,7 @@ which something is done.
 
 # Most common words in the vulgate 
 
-![](images/vulgate_files/figure-markdown_strict/unnamed-chunk-1-1.png)
+![](images/vulgate_files/unnamed-chunk-1-1.png)
 
 So for our first question, what are the most common words in the
 Vulgate? For that, we can consult the graph above. Unsurprisingly, out
