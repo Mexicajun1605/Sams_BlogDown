@@ -157,7 +157,7 @@ Finally, you may want to view how your observations compare to other observation
 plot(cars)
 ```
 
-![](/images/basicRstats/carDist.png)
+![](/images/basicRstats/carsDist.png)
 
 # Conclusion 
 Well that's it for today's post. I hope that you learned something from this tutorial and that it can help you with your research. Using R is not only useful, but I also find that it is very rewarding, especially for those of us who are math challenged like me. If you find this stuff to be difficult, know that you are not alone and that you can accomplish whatever you set your mind to. 
