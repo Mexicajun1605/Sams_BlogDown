@@ -1,11 +1,11 @@
 ---
 date: "2023-12-06"
 tags:
-- Language learning
+- Language_learning
 - Greek
 - Autodidacticism
-- Self teaching
-- Language goals
+- Self_teaching
+- Language_goals
 title: My language learning goals for 2024
 ---
 
