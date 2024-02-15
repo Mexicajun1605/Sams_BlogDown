@@ -20,7 +20,7 @@ I encourage you to take up these topics and to study them as well. Every book on
 
 Expect this list to be updated in the future. 
   
-For specific languages and how to learn them, please see my professional site at this [link](https://samellinguista.netlify.app/resources/)
+For specific languages or computer science and how to learn them, please see my professional site at this [link](https://samellinguista.netlify.app/resources/)
 
 # Theology and Mythology
 - The Bible
@@ -30,7 +30,7 @@ For specific languages and how to learn them, please see my professional site at
 - The Odyssey, Homer
 - The Homeric hymns, Homer
 - Oedipous Rex, Oedipous at Kolonos, Antigone, Sophocles
-- Dhammapada
+- Dhammapada, the Buddha
 - The Elder Edda
 - The Volsunga Saga
 - Fear and Trembling, Soren Kierkegaard
@@ -47,10 +47,13 @@ For specific languages and how to learn them, please see my professional site at
 - La Divina Comedia, Dante
 - Popol Vuh
 - Llivre Vermell de Montserrat
-- Cantigas de Santa Maria, Alfonso X
+- Cantigas de Santa Maria, Alfonso X 
+- The Orthodox Way, Kalistos Ware
+- Catechetical lectures of St. Cyril of Jerusalem 
+- On the acquisition of the Holy Spirit, St. Seraphim of Sarov 
+- The Mystical Theology of the Eastern Church, Vladimir Lossky 
 
-
-# Linguistics
+# Linguistics 
 - Syntactic Structures, Noam Chomsky
 - Language, Thought, and Reality, Benjamin Lee Whorf
 - An Introduction to Historical Linguistics, Crowley Terry
@@ -71,6 +74,7 @@ For specific languages and how to learn them, please see my professional site at
 - Fundamentos de la enseñza del español en los Estados Unidos, Kim Potowski
 - Fonética y fonología española, Schwegler, Kampf
 - Dictionnaire de la langue galoise, Delamarre
+- Learn to Read New Testament Greek, David Alan Black
 
 
 # Literature
@@ -94,7 +98,7 @@ For specific languages and how to learn them, please see my professional site at
 - Andre Breton, Surrealist Manifesto
 - Tartuffe, Molière
 - Macbeth, Shakespeare
-- Hombres Necios, Sor Juan Inés de la Cruz
+- Hombres Necios, Sor Juana Inés de la Cruz
 - Aesop's Fables
 
 # Poetry 
