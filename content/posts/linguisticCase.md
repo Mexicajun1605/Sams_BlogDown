@@ -13,7 +13,7 @@ date: "2024-02-15"
 
 In English, we have what can be considered a rather rigid structure to our sentences which briefly can be described as SVO, Subject, Verb, Object. However, this structure can be rather limiting in some circumstances. Because of this, a large number of the languages in the world use what is called a grammatical case. These grammatical cases determine the role of a noun in the sentence. For example, in English the following sentences mean the opposite things. 
 
-The man loves the woman.
+The man loves the woman. 
 The woman loves the man. 
 
 In Greek however, the case is what determines the role of the noun. Lets take a look at what is going on in the sentences below.  
@@ -23,16 +23,17 @@ In Greek however, the case is what determines the role of the noun. Lets take a 
    The man loves the woman.
    
 2. Ή γυνη αγαπει τον ανθροπον. 
-   Hi gini agapi ton anthropon.
+   Hi gini agapi ton anthropon. 
    The woman loves the man. 
 
-3. Τον ανθροπον αγαπει ή γυνη.
-   Ton anthropon agapi hi gini. 
+3. Τον ανθροπον αγαπει ή γυνη. 
+   Ton anthropon agapi hi gini.  
    The man loves the woman. 
    
 4. Την γυνην αγαπει ό ανθροπος. 
-   Tin ginin agapi ho anthropos. 
-
+   Tin ginin agapi ho anthropos.  
+   The woman loves the man. 
+   
 In the Greek sentences, the nouns are composed of two parts, a root and a case suffix. In English, we generally only use plural suffixes like this for our nouns, i.e. cat -> cats. However in Greek, we can see that the noun takes a suffix for its role in the sentence. For example, the word "Man" in Greek is ανθροπος. In 1. and 2. the man loves the woman and the noun for man ends in -os/ος. However, in 3 and 4 the ending changes to -ον/on. The change to the end of the noun indicates how its role in the sentence has changed from what is called the Nominative Case, the subject, to the Accusative Case, the object. 
 
 In Greek there are also an additional two cases, the Genitive and the Dative. We will be going over all four, as well as a fifth, the Vocative. However, lets start by further contrasting the Nominative and the Accusative. 
@@ -70,8 +71,8 @@ The Genitive can also be used to explain a handful of other things such as motio
 Finally we have the Dative case. While the Accusative and the Genetive are often used for meanings of movement towards or away, the Dative tends to take on the role for other types of movement and can be thought of as the indirect object. Roughly, the Dative will tend to correspond to the preposition 'to' in English. 
 
 8. Δοξα Πατρι και Υιω και Άγιω Πνευματι. 
-   Doxa Patri ke Io ke Hagio Pnevmati.
-   Glory Father(Dat) and Son(Dat) and Holy(Dat) Spirit(Dat)
+   Doxa Patri ke Io ke Hagio Pnevmati. 
+   Glory Father(Dat) and Son(Dat) and Holy(Dat) Spirit(Dat) 
    
 In this example, we can see that Glory is being sent to the Father and the Son and the Holy Spirit. One should be able to notice the change in the word Υιος as we have gone through these examples. Also of note is that the Dative case removes the necessity for the preposition 'to' in Greek. 
 
