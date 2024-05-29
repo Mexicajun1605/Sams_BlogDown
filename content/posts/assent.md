@@ -1,5 +1,5 @@
 ---
-date: "2024-05-30"
+date: "2024-05-29"
 tags:
 - Theology
 - Philosophy
