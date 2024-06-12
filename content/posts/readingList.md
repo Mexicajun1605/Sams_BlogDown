@@ -132,4 +132,5 @@ For specific languages or computer science and how to learn them, please see my 
 - El nuevo capitalismo, Dominique Plihon
 
 # Other
+-The Art of Manliness (book), BrettMckay
 - Viver em paz para morrer em paz, Mario Sergio Cortella
