@@ -16,7 +16,7 @@ In this letter, I explain the importance of the Nicene Creed, the Trinity, and t
 
 ## The letter 
 
-Dear Elizabeth J, 
+Dear JW, 
 
 
 I want to thank you for the kind letter that you sent to me and my family. I am certainly impressed by the effort that you went to in order to send a letter to my apartment. This is why I am choosing to respond.
