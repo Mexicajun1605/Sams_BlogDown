@@ -10,7 +10,7 @@ Some of the tools that I am passionate about are the R, Python, and Ruby program
 
 The languages that I speak in order of proficiency are English, Native, Spanish, in which I have an M.A, French, with teaching experience, Portuguese, Greek, Latin, German, and I know pieces or facts of other languages such as Persian, Korean, Japanese, Greek, Russian, Yucatec Mayan, and Sanskrit. 
 
-Outside of the realms of study and work, I like to spend my time hiking, making and maintaining terrariums, photography, playing video games, usually in another language, and spending time with my wife and cat. 
+Outside of the realms of study and work, I like to spend my time hiking, making and maintaining terrariums, photography, and playing video games, usually in another language.
 
 I highly recommend you check out the following books below. 
 ### [Reading List](https://samlj.netlify.app/posts/readinglist/)
